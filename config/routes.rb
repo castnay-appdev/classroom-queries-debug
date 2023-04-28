@@ -32,7 +32,7 @@ Rails.application.routes.draw do
   # READ
   get("/students", { :controller => "students", :action => "index" })
   
-  get("/students/:path_id", { :controller => "students", :action => "show" })
+  get("/students/:zebra", { :controller => "students", :action => "show" })
 
   #------------------------------
 
